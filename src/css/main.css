@@ -1,0 +1,30 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pc-header {
+  height: 60px;
+  padding: 12px 50px 0;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+.pc-header h1,
+.pc-header h3 {
+  margin: 0;
+  display: inline-block;
+}
+
+#app-frame {
+  border: 0;
+  width: 100%;
+  height: calc(100% - 60px);
+}
