@@ -12,15 +12,20 @@ body {
 
 .pc-header {
   height: 60px;
-  padding: 12px 50px 0;
+  padding: 0.5em 50px 0;
   box-sizing: border-box;
   background-color: #eee;
 }
 
-.pc-header h1,
 .pc-header h3 {
-  margin: 0;
+  float: right;
+  margin: 0.6em 0 0;
   display: inline-block;
+}
+
+.pc-logo {
+  display: inline-block;
+  height: 3em;
 }
 
 #app-frame {
