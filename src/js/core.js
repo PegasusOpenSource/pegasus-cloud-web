@@ -1,6 +1,7 @@
 define([
   "pc",
-  "components/app"
+  "components/app",
+  "components/applist"
   ], function(pc){
     return pc;
 });
