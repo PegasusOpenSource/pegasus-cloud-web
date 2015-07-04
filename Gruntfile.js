@@ -1,3 +1,8 @@
 module.exports = function(grunt) {
-  console.log("Gooda!");
+
+  grunt.initConfig({
+    "build": function(){
+      console.log("GIOOOOOOODAAS!");
+    }
+  });
 };
