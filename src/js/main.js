@@ -1,3 +1,3 @@
-define(["pc"], function (pc) {
+define(["core"], function (pc) {
   window.PC = pc;
 });
