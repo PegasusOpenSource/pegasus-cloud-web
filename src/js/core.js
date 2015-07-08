@@ -2,7 +2,8 @@ define([
   "pc",
   "components/app",
   "components/applist",
-  "components/apprunner"
+  "components/apprunner",
+  "dom/interface"
   ], function(pc){
     return pc;
 });
