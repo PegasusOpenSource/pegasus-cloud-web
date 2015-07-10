@@ -15,7 +15,7 @@ define([], function () {
     // Use default name if app doesn't have a name or name is falsey
     this.name = settings.name ? settings.name : "Untitled Cloud App";
     // App directory
-    this.dir = settings.appDir;
+    this.url = settings.url;
   };
 
   // Set app to global

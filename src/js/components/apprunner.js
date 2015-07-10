@@ -9,7 +9,7 @@ define(["pc", "dom/appframe", "components/app", ], function (pc, appframe) {
   };
 
   app.update = function (appObj) {
-    appframe.src = appObj.dir;
+    appframe.src = appObj.url;
     app.currentApp = appObj;
   };
 
