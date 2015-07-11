@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -5,7 +10,7 @@ body {
 }
 
 .pc-header {
-  height: 60px;
+  height: 4em;
   padding: 0.5em 50px 0;
   box-sizing: border-box;
   background-color: #eee;
@@ -13,7 +18,7 @@ body {
 
 .pc-header h3 {
   float: right;
-  margin: 0.6em 0 0;
+  margin: 0.75em 0 0;
   display: inline-block;
 }
 
@@ -25,5 +30,5 @@ body {
 #app-frame {
   border: 0;
   width: 100%;
-  height: calc(100% - 60px);
+  height: calc(100% - 4em);
 }
